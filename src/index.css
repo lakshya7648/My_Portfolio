@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-gradient-to-tr from-slate-950 to-slate-900 text-white m-0 transition-all duration-75;
+}
+
+.site-color {
+    @apply text-yellow-400
+}
+
+
+/* Utilities */
+
+
+/* .btn-colorful {
+    @apply text-sm bg-gradient-to-br from-pink-900 via-pink-800 via-pink-600 via-pink-400 via-yellow-700 to-yellow-500 px-4 py-2 rounded-full hover:bg-gradient-to-tr hover:from-yellow-800 hover:via-yellow-700 hover:via-yellow-600  hover:via-pink-400 hover:via-pink-500 hover:to-pink-800 active:bg-slate-600  cursor-pointer transition-all duration-100
+} */
+
+.nav-item.active {
+    @apply text-yellow-400
+}
+
+.nav-item {
+    @apply text-white/60 px-3 py-2 mb-0 w-full self-start font-NotoSans text-[12px] font-normal hover:ring-inset hover:ring-1 hover:ring-white/50 hover:bg-slate-900 hover:text-white hover:rounded-md md:text-[14px] md:mx-2 transition-all md:hover:bg-slate-950 md:py-1 md:hover:rounded-full 
+}
+
+
+.nav-open {
+    @apply absolute right-2 top-20 py-1 bg-slate-800 rounded-md w-36 z-20 md:hidden
+}
+
+.description {
+    @apply text-[14px] max-w-[500px] text-white/60 font-light font-NotoSans;
+}
+
+.headline {
+    @apply font-NotoSans text-[22px] font-semibold tracking-tight text-white
+}
+
+.description-2 {
+    @apply font-NotoSans text-[14px] font-light tracking-tight w-full text-white/60
+}
+
+.section-box {
+    @apply mx-4 mb-8 mt-16 md:mx-8;
+}
+.box {
+    @apply bg-gradient-to-tr from-slate-800 py-7 px-8 rounded-2xl mx-2 md:mx-auto md:max-w-screen-lg hover:ring-1 hover:ring-white/30
+}
+
+.form-label {
+    @apply text-sm font-bold text-slate-500/90 py-2 font-NotoSans;
+}
+
+.form-input {
+    @apply font-NotoSans tracking-tight text-sm text-white mb-4 px-3 py-3 outline-none rounded-lg bg-slate-600/70 placeholder:text-sm placeholder:tracking-wide placeholder:text-white/50 focus:ring-2 focus:ring-white
+}
+
+.footer-link {
+    @apply text-sm mb-1 text-slate-500/80 hover:text-white;
+}
+
+
+
+/* Components */
+
+
+
+
+.btn-secondary {
+    @apply px-4 py-3 rounded-full bg-yellow-400 text-black font-NotoSans font-semibold text-[14px] border border-yellow-400 hover:bg-slate-950 hover:text-yellow-400 transition-all duration-100
+}
+
+.btn-dark {
+    @apply px-4 py-3 bg-pink-700 border border-pink-700 font-semibold text-white text-[14px] hover:bg-slate-950 hover:text-pink-600 hover:border-pink-600 transition-all duration-200
+}
+.skills-box {
+    @apply flex flex-col justify-center items-center mt-2 hover:scale-110 transition-all duration-100 cursor-pointer;
+}
+.btn-project-link {
+    @apply px-2 py-1 bg-yellow-700 rounded-md border border-yellow-700 font-semibold text-white text-sm hover:bg-transparent hover:text-yellow-600 hover:border-yellow-600 transition-all duration-200
+}
