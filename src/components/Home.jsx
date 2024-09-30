@@ -75,13 +75,6 @@ const Home = () => {
             className={"btn-secondary"}
           />
 
-          {/* <a 
-            href="https://docs.google.com/document/d/1W5Qnz-S6oyV9YowMhGrckRb8Qk6sqxfHr5_noE3hycM/edit?usp=sharing"
-            className="btn-dark flex items-center justify-center gap-1"
-            target="_blank"
-          >
-            Get Resume <span className="material-symbols-rounded text-[18px]">open_in_new</span>
-          </a> */}
           <Button 
             href={"https://docs.google.com/document/d/1W5Qnz-S6oyV9YowMhGrckRb8Qk6sqxfHr5_noE3hycM/edit?usp=sharing"}
             className={"btn-dark flex items-center justify-center gap-1"}

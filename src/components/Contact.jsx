@@ -68,7 +68,7 @@ const Contact = () => {
 
         </div>
 
-          {/* form to be added */}
+
         <form 
           action={import.meta.env.VITE_FORM_LINK}
           method="post"
@@ -131,8 +131,11 @@ const Contact = () => {
           </button>
 
         </form>
+    
         </div>
+    
       </div>
+    
     </motion.section>
   );
 };

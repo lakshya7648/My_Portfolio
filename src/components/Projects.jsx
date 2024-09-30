@@ -21,7 +21,7 @@ const Projects = () => {
             id: projectIdCount++,
             imgSrc:"myportfolio.jpg",
             projectName:"My Portfolio",
-            codeLink : "",
+            codeLink : "https://github.com/lakshya7648/My_Portfolio",
             description : "This is my portfolio where you'll find all my information.",
             skillsUsed : [
                 {id:skillIdCount++, skill : "React"},

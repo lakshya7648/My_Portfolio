@@ -26,9 +26,7 @@ const Header = () => {
         <Navbar />
       </div>
 
-      {/* <a href="#contact" className="btn-secondary hidden md:block">
-        Contact Me!
-      </a> */}
+
       <Button 
         labels={"Contact Me!"}
         href = {"#contact"}

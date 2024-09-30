@@ -37,14 +37,6 @@ const ProjectsCard = ({
                 {projectName}
             </h4>
 
-            {/* <a 
-            href={codeLink} 
-            className="btn-project-link flex gap-2 self-start" 
-            target="_blank"
-            >
-                Code
-                <span className="material-symbols-rounded text-sm">open_in_new</span>
-            </a> */}
             <Button 
                 labels={"Code"}
                 href={codeLink}
