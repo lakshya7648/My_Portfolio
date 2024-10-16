@@ -6,3 +6,4 @@ This is my portfolio where you'll get all my information.
 2. Tailwind-css
 3. tailwind-scrollbar
 4. React Framer Motion
+5. **Linters :** Eslint and Prettier
