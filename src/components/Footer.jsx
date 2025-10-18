@@ -3,10 +3,8 @@
  */
 import Button from "./Button"
 
-
-const Footer = () => {
-    const currentYear = new Date().getFullYear();
-    const sitemap = [
+const currentYear = new Date().getFullYear();
+const sitemap = [
         {
             id : 31, 
             itemName:"Home",
@@ -47,6 +45,8 @@ const Footer = () => {
             platformLink : "http://github.com/lakshya7648",
         },
   ]
+
+const Footer = () => {    
 
   return (
     <footer
