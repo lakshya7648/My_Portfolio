@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        "NotoSans": ["Noto Sans"]
+        "NotoSans": ["Noto Sans", "sans-serif", "Mono"]
       }
     },
   },
