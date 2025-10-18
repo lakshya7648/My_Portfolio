@@ -5,7 +5,7 @@ import Button from "./Button"
 
 
 const Footer = () => {
-
+    const currentYear = new Date().getFullYear();
     const sitemap = [
         {
             id : 31, 
@@ -109,7 +109,7 @@ const Footer = () => {
 
             <div className="px-2 pt-2 mt-6 flex justify-center items-center">
                 
-                <p className="tracking-wide font-NotoSans text-xs">&copy; <span className="text-slate-500/80">2024</span> : Lakshya Kumar</p>
+                <p className="tracking-wide font-NotoSans text-xs">&copy; <span className="text-slate-500/80">{currentYear}</span> : Lakshya Kumar</p>
             
             </div>
         </div>
